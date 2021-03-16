@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "DreamiNUS",
+  "description": "Navigate NUS websites with easy so that you can sleep more and dream often.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://luminus.nus.edu.sg/*", "https://vafs.nus.edu.sg/*"],
+      "js": ["index.js", "rocket.js"]
+    }
+  ]
+}
